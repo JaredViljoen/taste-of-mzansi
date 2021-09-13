@@ -1,0 +1,1105 @@
+@font-face {
+  font-family: 'Museo Sans';
+  src: url("../fonts/museo/MuseoSans-700.woff2") format("woff2"), url("../fonts/museo/MuseoSans-700.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Museo Sans';
+  src: url("../fonts/museo/fonts/museo") format("woff2"), url("../fonts/museo/MuseoSans-300.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Museo Sans';
+  src: url("../fonts/museo/MuseoSans-100.woff2") format("woff2"), url("../fonts/museo/MuseoSans-100.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Museo Sans';
+  src: url("../fonts/museo/MuseoSans-500.woff2") format("woff2"), url("../fonts/museo/MuseoSans-500.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Museo Sans';
+  src: url("../fonts/museo/MuseoSans-900.woff2") format("woff2"), url("../fonts/museo/MuseoSans-900.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Tungsten';
+  src: url("../fonts/tungsten/Tungsten-Black.woff2") format("woff2"), url("../fonts/tungsten/Tungsten-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Tungsten';
+  src: url("../fonts/tungsten/Tungsten-Bold.woff2") format("woff2"), url("../fonts/tungsten/Tungsten-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Tungsten';
+  src: url("../fonts/tungsten/Tungsten-Medium.woff2") format("woff2"), url("../fonts/tungsten/Tungsten-Medium.woff") format("woff");
+  font-weight: medium;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Tungsten';
+  src: url("../fonts/tungsten/Tungsten-Semibold.woff2") format("woff2"), url("../fonts/tungsten/Tungsten-Semibold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+section {
+  padding: 4rem 9rem;
+}
+
+@media screen and (max-width: 900px) {
+  section {
+    padding: 4rem 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  section {
+    padding: 2rem 2rem;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Tungsten", sans-serif;
+}
+
+p {
+  font-family: "Museo Sans", Arial, Helvetica, sans-serif;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 0.2s ease-in;
+  transition: -webkit-transform 0.2s ease-in;
+  transition: transform 0.2s ease-in;
+  transition: transform 0.2s ease-in, -webkit-transform 0.2s ease-in;
+}
+
+button i {
+  margin-left: 20px;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba 255, 255, 255, 1;
+  overflow-x: hidden;
+  padding: 2rem 6rem;
+  font-family: "Tungsten", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+nav img {
+  height: 2.3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+  nav img {
+    height: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+    padding: 2rem 1rem;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+nav .book-cta {
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 50px;
+  font-family: "Tungsten", sans-serif;
+  font-weight: 600;
+  color: white;
+  font-size: 1.4rem;
+  background-color: #0044a3;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+nav .book-cta:hover {
+  background-color: #0067c2;
+}
+
+@media screen and (max-width: 900px) {
+  nav .book-cta {
+    padding: 0.3rem 0.8rem;
+    color: white;
+    background-color: #002861;
+  }
+  nav .book-cta:hover {
+    background-color: transparent;
+    color: #0067c2;
+  }
+  nav .book-cta i {
+    font-size: 1.2rem;
+    margin-left: 10px;
+  }
+}
+
+.nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 50%;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links .link {
+  color: #002861;
+  text-decoration: none;
+}
+
+.nav-links .link .link-hov {
+  position: relative;
+}
+
+.nav-links .link .link-hov::after {
+  display: block;
+  position: absolute;
+  background-color: #0067c2;
+  bottom: -25%;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 2px;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.nav-links .link:hover .link-hov::after {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+
+@media screen and (max-width: 900px) {
+  .nav-links {
+    position: absolute;
+    right: 0px;
+    top: 15vh;
+    background-color: #ffc72c;
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    -webkit-box-align: right;
+        -ms-flex-align: right;
+            align-items: right;
+    gap: 20px;
+    width: 100%;
+    padding: 3rem 3rem;
+    -webkit-transition: -webkit-transform 0.5s ease-in;
+    transition: -webkit-transform 0.5s ease-in;
+    transition: transform 0.5s ease-in;
+    transition: transform 0.5s ease-in, -webkit-transform 0.5s ease-in;
+    z-index: 20;
+    -webkit-box-shadow: 0px 4px 7px 0px rgba(46, 46, 46, 0.65);
+            box-shadow: 0px 4px 7px 0px rgba(46, 46, 46, 0.65);
+  }
+  .nav-links li {
+    opacity: 0;
+  }
+}
+
+.active {
+  color: #ed9645;
+}
+
+.burger {
+  display: none;
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: #002861;
+  margin: 5px;
+  border-radius: 50px;
+}
+
+@media screen and (max-width: 900px) {
+  .burger {
+    display: block;
+    cursor: pointer;
+  }
+}
+
+.nav-active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@-webkit-keyframes navLinkFade {
+  from {
+    opacity: 0;
+    -webkit-transform: translateX(50px);
+            transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    -webkit-transform: translateX(50px);
+            transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+.toggle .line1 {
+  -webkit-transform: rotate(-45deg) translate(-5px, 6px);
+          transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2 {
+  opacity: 0;
+}
+
+.toggle .line3 {
+  -webkit-transform: rotate(45deg) translate(-5px, -6px);
+          transform: rotate(45deg) translate(-5px, -6px);
+}
+
+header {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(../media/kitchen-background-desktop-min.webp);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../media/kitchen-background-desktop-min.webp);
+  padding: 4rem 9rem;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  height: 87vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  font-family: "Tungsten", sans-serif;
+}
+
+@media screen and (max-width: 900px) {
+  header {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 4rem 2rem;
+    height: 50vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    padding: 2rem 2rem;
+    background-image: url(../media/kitchen-background-mobile-min.webp);
+    height: 100vh;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+header .taste-mzansi {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+}
+
+@media screen and (max-width: 1200px) {
+  header .taste-mzansi {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header .taste-mzansi {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+}
+
+header .taste-mzansi .mzansi-logo {
+  height: 20rem;
+  width: auto;
+  z-index: 3;
+}
+
+@media screen and (max-width: 900px) {
+  header .taste-mzansi .mzansi-logo {
+    height: 16rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header .taste-mzansi .mzansi-logo {
+    height: 14rem;
+  }
+}
+
+header .taste-mzansi .header-h1 {
+  color: #ffffff;
+  background-color: #e05a29;
+  padding: 0 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  -webkit-transform: rotate(-5deg);
+          transform: rotate(-5deg);
+  margin-top: -40px;
+  font-size: 4rem;
+  z-index: 2;
+}
+
+@media screen and (max-width: 900px) {
+  header .taste-mzansi .header-h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header .taste-mzansi .header-h1 {
+    font-size: 2.5rem;
+    margin-top: -25px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  header .taste-mzansi .header-h1 {
+    font-size: 2.2rem;
+    margin-top: -25px;
+    padding: 6px 15px;
+  }
+}
+
+header .taste-mzansi .header-h1::after {
+  content: 'South Africa';
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  opacity: 0;
+  display: inline-block;
+  -webkit-animation: heritage 10s ease-in 1s forwards;
+          animation: heritage 10s ease-in 1s forwards;
+  width: 250px;
+}
+
+@media screen and (max-width: 600px) {
+  header .taste-mzansi .header-h1::after {
+    width: 165px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  header .taste-mzansi .header-h1::after {
+    width: 160px;
+  }
+}
+
+@-webkit-keyframes heritage {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    content: 'Heritage';
+    opacity: 0;
+  }
+  5% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+  20% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+  25% {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+    opacity: 0;
+    content: 'Heritage';
+  }
+  30% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    content: 'Mzansi';
+    opacity: 0;
+  }
+  35% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+  50% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+  55% {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+    opacity: 0;
+    content: 'Mzansi';
+  }
+  60% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    content: 'South Africa';
+    opacity: 0;
+  }
+  65% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes heritage {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    content: 'Heritage';
+    opacity: 0;
+  }
+  5% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+  20% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+  25% {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+    opacity: 0;
+    content: 'Heritage';
+  }
+  30% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    content: 'Mzansi';
+    opacity: 0;
+  }
+  35% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+  50% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+  55% {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+    opacity: 0;
+    content: 'Mzansi';
+  }
+  60% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    content: 'South Africa';
+    opacity: 0;
+  }
+  65% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+header .taste-mzansi .taste-para {
+  color: #ffffff;
+  font-family: "Tungsten", sans-serif;
+  background-color: #002861;
+  padding: 13px 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 2.5rem;
+  z-index: 1;
+  margin-top: 5px;
+  margin-left: 4px;
+}
+
+@media screen and (max-width: 600px) {
+  header .taste-mzansi .taste-para {
+    font-size: 2.2rem;
+    width: 70%;
+    padding: 8px 20px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  header .taste-mzansi .taste-para {
+    font-size: 2rem;
+    width: 95%;
+    padding: 8px 15px;
+  }
+}
+
+header .nthabi {
+  position: absolute;
+  bottom: 0;
+  right: 100px;
+  height: 97%;
+  width: auto;
+}
+
+@media screen and (max-width: 1200px) {
+  header .nthabi {
+    height: 95%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  header .nthabi {
+    height: 70%;
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header .nthabi {
+    height: 55%;
+    z-index: 5;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  header .nthabi {
+    height: 45%;
+  }
+}
+
+header .text-circle {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+  -webkit-animation: scrollRotate 15s linear none infinite;
+          animation: scrollRotate 15s linear none infinite;
+}
+
+header .text-circle .text-on-path {
+  font-size: 7rem;
+  font-family: Tungsten;
+  font-weight: bold;
+  fill: #ffffff;
+  letter-spacing: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  header .text-circle .text-on-path {
+    font-size: 6rem;
+  }
+}
+
+@-webkit-keyframes scrollRotate {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
+}
+
+@keyframes scrollRotate {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  header .text-circle {
+    bottom: 10px;
+    right: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header .text-circle {
+    bottom: 10px;
+    right: 10px;
+    z-index: 6;
+  }
+}
+
+header .boeries {
+  position: absolute;
+  bottom: 76px;
+  right: 90px;
+  height: 5rem;
+}
+
+@media screen and (max-width: 900px) {
+  header .boeries {
+    bottom: 48px;
+    right: 57px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header .boeries {
+    right: 64px;
+    bottom: 58px;
+    z-index: 6;
+    height: 4rem;
+  }
+}
+
+.intro {
+  position: relative;
+  overflow: hidden;
+}
+
+.intro .svg-deco {
+  position: absolute;
+  z-index: -1;
+  height: 13rem;
+}
+
+@media screen and (max-width: 600px) {
+  .intro .svg-deco {
+    height: 11rem;
+  }
+}
+
+.intro .svg-line {
+  left: 100px;
+  bottom: 193px;
+}
+
+@media screen and (max-width: 600px) {
+  .intro .svg-line {
+    left: -14px;
+    bottom: 248px;
+    height: 12rem;
+  }
+}
+
+.intro .svg-lines {
+  right: 78px;
+  top: -34px;
+}
+
+@media screen and (max-width: 600px) {
+  .intro .svg-lines {
+    right: -23px;
+  }
+}
+
+.intro .intro-text {
+  font-family: "Museo Sans", Arial, Helvetica, sans-serif;
+}
+
+.intro .intro-share {
+  margin-top: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .intro .intro-share {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.intro .intro-share .intro-share-text {
+  font-family: "Tungsten", sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .intro .intro-share .intro-share-text {
+    font-size: 2.5rem;
+    margin-left: -9rem;
+  }
+}
+
+.intro .intro-share .intro-share-text .intro-share-photos {
+  font-family: "Tungsten", sans-serif;
+  background-color: #e05a29;
+  padding: 10px 20px;
+  -webkit-transform: rotate(-5deg);
+          transform: rotate(-5deg);
+  width: 90%;
+}
+
+@media screen and (max-width: 600px) {
+  .intro .intro-share .intro-share-text .intro-share-photos {
+    padding: 10px 20px 10px 9rem;
+    width: 90%;
+  }
+}
+
+.intro .intro-share .intro-share-text .intro-share-hash {
+  font-family: "Tungsten", sans-serif;
+  background-color: #002861;
+  padding: 10px 20px;
+  margin-left: 4px;
+}
+
+@media screen and (max-width: 600px) {
+  .intro .intro-share .intro-share-text .intro-share-hash {
+    padding: 10px 20px 10px 9rem;
+  }
+}
+
+.intro .intro-share .intro-share-icons {
+  text-align: right;
+  width: 60%;
+  font-size: 7rem;
+}
+
+@media screen and (max-width: 600px) {
+  .intro .intro-share .intro-share-icons {
+    font-size: 3rem;
+    width: 100%;
+    margin-top: 3rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+.intro .intro-share .intro-share-icons i {
+  color: #e05a29;
+  margin-left: 3rem;
+}
+
+@media screen and (max-width: 600px) {
+  .intro .intro-share .intro-share-icons i {
+    margin-left: 0rem;
+  }
+}
+
+.webisodes {
+  background-color: #fdeace;
+  text-align: center;
+  position: relative;
+}
+
+.webisodes h2 {
+  font-size: 3rem;
+  color: #e05a29;
+  margin-bottom: 3rem;
+}
+
+.webisodes .video-section {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  gap: 50px;
+  margin-bottom: 6rem;
+}
+
+@media screen and (max-width: 600px) {
+  .webisodes .video-section {
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+  }
+}
+
+.webisodes .video-section .video-container {
+  background-color: #e8e8e8;
+  text-align: left;
+  -webkit-box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.4);
+          box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.4);
+}
+
+.webisodes .video-section .video-container .video-text {
+  padding: 20px 30px;
+}
+
+.webisodes .video-section .video-container .video-text h3 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.webisodes .embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.webisodes .embed-container iframe, .webisodes .embed-container object, .webisodes .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.webisodes .section-divider-top {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+}
+
+.recipes {
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #FD9900;
+  margin-top: -10px;
+  color: white;
+}
+
+@media screen and (max-width: 1200px) {
+  .recipes {
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    -webkit-box-align: left;
+        -ms-flex-align: left;
+            align-items: left;
+  }
+}
+
+.recipes .recipes-text h2 {
+  font-size: 10rem;
+  line-height: 8rem;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1200px) {
+  .recipes .recipes-text h2 {
+    font-size: 8rem;
+  }
+}
+
+.recipes .recipes-options {
+  padding: 0 4rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .recipes .recipes-options {
+    padding: 0 0;
+  }
+}
+
+.recipes .recipes-options p {
+  margin: 10px 0 30px 0;
+  font-size: 1.2rem;
+}
+
+.recipes .recipes-options .swiper {
+  width: 45vw;
+  height: 320px;
+  cursor: url("../media/swiper.png"), pointer;
+}
+
+@media screen and (max-width: 1200px) {
+  .recipes .recipes-options .swiper {
+    width: 90vw;
+  }
+}
+
+.recipes .recipes-options .swiper .swiper-slide {
+  background-color: #0044a3;
+  position: relative;
+  border-radius: 30px 30px 0 30px;
+  overflow: hidden;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+}
+
+.recipes .recipes-options .swiper .swiper-slide img {
+  height: auto;
+  width: 100%;
+}
+
+.recipes .recipes-options .swiper .swiper-slide .recipe-card {
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+.recipes .recipes-options .swiper .swiper-slide button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #0067c2;
+  font-family: "Tungsten", sans-serif;
+  text-transform: uppercase;
+  font-size: 2rem;
+  border: none;
+  border-radius: 30px 0 0 0;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: right;
+      -ms-flex-align: right;
+          align-items: right;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: bold;
+}
+
+.recipes .recipes-options .swiper .swiper-slide button img {
+  height: 35px;
+  margin-left: 10px;
+  width: auto;
+}
+
+.recipes .section-divider-bottom {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+}
+/*# sourceMappingURL=main.css.map */
