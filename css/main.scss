@@ -1,95 +1,94 @@
-$primaryOrange : hsla(16,75%,52%,100%);
-$primaryBlue : hsla(215,100%,19%,100%);
-$secondaryOrange: hsla(29,82%,60%,100%);
-$backgroundOrange: hsla(36,91%,90%,100%);
-$secondaryMidBlue: hsla(213,62%,77%,100%);
-$activeBlue: hsla(215,100%,32%,100%);
-$hoverBlue: hsla(208,100%,38%,100%);
+$primaryOrange: hsla(16, 75%, 52%, 100%);
+$primaryBlue: hsla(215, 100%, 19%, 100%);
+$secondaryOrange: hsla(29, 82%, 60%, 100%);
+$backgroundOrange: hsla(36, 91%, 90%, 100%);
+$secondaryMidBlue: hsla(213, 62%, 77%, 100%);
+$activeBlue: hsla(215, 100%, 32%, 100%);
+$hoverBlue: hsla(208, 100%, 38%, 100%);
 
-$primaryFont: 'Tungsten', sans-serif;
-$secondayFont: 'Museo Sans', Arial, Helvetica, sans-serif;
+$primaryFont: "Tungsten", sans-serif;
+$secondayFont: "Museo Sans", Arial, Helvetica, sans-serif;
 
 @font-face {
-    font-family: 'Museo Sans';
-    src: url('../fonts/museo/MuseoSans-700.woff2') format('woff2'),
-        url('../fonts/museo/MuseoSans-700.woff') format('woff');
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Museo Sans";
+  src: url("../fonts/museo/MuseoSans-700.woff2") format("woff2"),
+    url("../fonts/museo/MuseoSans-700.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Museo Sans';
-    src: url('../fonts/museo/fonts/museo') format('woff2'),
-        url('../fonts/museo/MuseoSans-300.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Museo Sans";
+  src: url("../fonts/museo/fonts/museo") format("woff2"),
+    url("../fonts/museo/MuseoSans-300.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Museo Sans';
-    src: url('../fonts/museo/MuseoSans-100.woff2') format('woff2'),
-        url('../fonts/museo/MuseoSans-100.woff') format('woff');
-    font-weight: 100;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Museo Sans";
+  src: url("../fonts/museo/MuseoSans-100.woff2") format("woff2"),
+    url("../fonts/museo/MuseoSans-100.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Museo Sans';
-    src: url('../fonts/museo/MuseoSans-500.woff2') format('woff2'),
-        url('../fonts/museo/MuseoSans-500.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Museo Sans";
+  src: url("../fonts/museo/MuseoSans-500.woff2") format("woff2"),
+    url("../fonts/museo/MuseoSans-500.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Museo Sans';
-    src: url('../fonts/museo/MuseoSans-900.woff2') format('woff2'),
-        url('../fonts/museo/MuseoSans-900.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Museo Sans";
+  src: url("../fonts/museo/MuseoSans-900.woff2") format("woff2"),
+    url("../fonts/museo/MuseoSans-900.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Tungsten';
-    src: url('../fonts/tungsten/Tungsten-Black.woff2') format('woff2'),
-        url('../fonts/tungsten/Tungsten-Black.woff') format('woff');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Tungsten";
+  src: url("../fonts/tungsten/Tungsten-Black.woff2") format("woff2"),
+    url("../fonts/tungsten/Tungsten-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Tungsten';
-    src: url('../fonts/tungsten/Tungsten-Bold.woff2') format('woff2'),
-        url('../fonts/tungsten/Tungsten-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Tungsten";
+  src: url("../fonts/tungsten/Tungsten-Bold.woff2") format("woff2"),
+    url("../fonts/tungsten/Tungsten-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Tungsten';
-    src: url('../fonts/tungsten/Tungsten-Medium.woff2') format('woff2'),
-        url('../fonts/tungsten/Tungsten-Medium.woff') format('woff');
-    font-weight: medium;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Tungsten";
+  src: url("../fonts/tungsten/Tungsten-Medium.woff2") format("woff2"),
+    url("../fonts/tungsten/Tungsten-Medium.woff") format("woff");
+  font-weight: medium;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Tungsten';
-    src: url('../fonts/tungsten/Tungsten-Semibold.woff2') format('woff2'),
-        url('../fonts/tungsten/Tungsten-Semibold.woff') format('woff');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Tungsten";
+  src: url("../fonts/tungsten/Tungsten-Semibold.woff2") format("woff2"),
+    url("../fonts/tungsten/Tungsten-Semibold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
 }
-
 
 $screen-xs-max: 375px;
 $screen-sm-max: 600px;
@@ -120,10 +119,14 @@ $screen-lg-max: 1200px;
   }
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 html,
@@ -132,10 +135,10 @@ body {
 }
 
 section {
-  padding:4rem 9rem;
+  padding: 4rem 9rem;
 
   @include md {
-  padding: 4rem 2rem;
+    padding: 4rem 2rem;
   }
 
   @include sm {
@@ -143,7 +146,12 @@ section {
   }
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: $primaryFont;
 }
 
@@ -152,731 +160,900 @@ p {
 }
 
 a {
-    cursor: pointer;
-    text-decoration: none;
-  }
+  cursor: pointer;
+  text-decoration: none;
+}
 
-  button {
-    cursor: pointer;
-    transition: transform 0.2s ease-in;
-  
-    i {
-      margin-left: 20px;
-    }
-  
+button {
+  cursor: pointer;
+  transition: transform 0.2s ease-in;
+
+  i {
+    margin-left: 20px;
   }
+}
 
 nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba (255, 255, 255, 1);
+  overflow-x: hidden;
+  padding: 2rem 6rem;
+  font-family: $primaryFont;
+  font-weight: 600;
+  font-size: 1.5rem;
+
+  img {
+    height: 2.3rem;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgba (255,255,255, 1);
-    overflow-x: hidden;
-    padding: 2rem 6rem;
+    justify-content: center;
+
+    @include sm {
+      height: 1.8rem;
+    }
+  }
+
+  @include sm {
+    padding: 2rem 1rem;
+    justify-content: space-around;
+  }
+
+  .book-cta {
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 50px;
     font-family: $primaryFont;
     font-weight: 600;
-    font-size: 1.5rem;
-  
-    img {
-      height: 2.3rem;
-      display: flex;
-      justify-content: center;
-      
-      @include sm{
-          height: 1.8rem;
-      }
+    color: white;
+    font-size: 1.4rem;
+    background-color: $activeBlue;
+    transition: all 0.3s ease-in;
+
+    &:hover {
+      background-color: $hoverBlue;
     }
 
-  
-    @include sm {
-        padding: 2rem 1rem;
-      justify-content: space-around;
-    }
-
-    .book-cta{
-        padding: 0.5rem 2rem;
-        border: none;
-        border-radius: 50px;
-        font-family: $primaryFont;
-        font-weight: 600;
-        color: white;
-        font-size: 1.4rem;
-        background-color: $activeBlue;
-        transition: all 0.3s ease-in;
-
-        &:hover{
-            background-color: $hoverBlue;
-        }
-
-        @include md {
-            padding: 0.3rem 0.8rem;
-            color: white;
-            background-color: $primaryBlue;
-            
-
-
-            &:hover{
-                background-color: transparent;
-                color: $hoverBlue;
-            }
-
-            i {
-              font-size: 1.2rem;
-                margin-left: 10px;
-            }
-        }
-    }
-
-
-  }
-  
-  .nav-links {
-    display: flex;
-    justify-content: space-around;
-    width: 50%;
-  
-    li {
-      list-style: none;
-    }
-  
-    .link {
-      color: $primaryBlue;
-      text-decoration: none;
-  
-  
-      .link-hov {
-        position: relative;
-  
-        &::after {
-          display: block;
-          position: absolute;
-          background-color: $hoverBlue;
-          bottom: -25%;
-          left: 0;
-          content: "";
-          width: 100%;
-          height: 2px;
-          visibility: hidden;
-          transform: scaleX(0);
-          transform-origin: bottom left;
-          transition: all 0.3s ease-out;
-        }
-      }
-  
-      &:hover .link-hov::after {
-        visibility: visible;
-        transform: scaleX(1);
-      }
-    }
-  
-  
     @include md {
-      position: absolute;
-      right: 0px;
-      top: 15vh;
-      background-color: #ffc72c;
-      display: none;
-      flex-direction: column;
-      justify-content: end;
-      align-items: right;
-      gap: 20px;
-      width: 100%;
-      padding: 3rem 3rem;
-      transition: transform 0.5s ease-in;
-      z-index: 20;
-      box-shadow: 0px 4px 7px 0px rgba(46, 46, 46, 0.65);
-
-  
-      li {
-        opacity: 0;
-      }
-    }
-  }
-  
-  .active {
-    color: $secondaryOrange;
-  }
-  
-  .burger {
-    display: none;
-  
-    div {
-      width: 25px;
-      height: 3px;
+      padding: 0.3rem 0.8rem;
+      color: white;
       background-color: $primaryBlue;
-      margin: 5px;
-      border-radius: 50px;
+
+      &:hover {
+        background-color: transparent;
+        color: $hoverBlue;
+      }
+
+      i {
+        font-size: 1.2rem;
+        margin-left: 10px;
+      }
     }
-  
-    @include md {
-      display: block;
-      cursor: pointer;
-    }
+  }
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+
+  li {
+    list-style: none;
   }
 
-  .nav-active {
-    display: flex;
-  }
-  
-  @keyframes navLinkFade {
-    from {
-      opacity: 0;
-      transform: translateX(50px);
-    }
-    to {
-      opacity: 1;
-      transform: translateX(0px);
-    }
-  }
-  
-  .toggle .line1 {
-    transform: rotate(-45deg) translate(-5px, 6px);
-  }
-  
-  .toggle .line2 {
-    opacity: 0;
-  }
-  
-  .toggle .line3 {
-    transform: rotate(45deg) translate(-5px, -6px);
-  }
-  
-  header {
-      background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../media/kitchen-background-desktop-min.webp);
-      padding: 4rem 9rem;
+  .link {
+    color: $primaryBlue;
+    text-decoration: none;
+
+    .link-hov {
       position: relative;
-      display: flex;
+
+      &::after {
+        display: block;
+        position: absolute;
+        background-color: $hoverBlue;
+        bottom: -25%;
+        left: 0;
+        content: "";
+        width: 100%;
+        height: 2px;
+        visibility: hidden;
+        transform: scaleX(0);
+        transform-origin: bottom left;
+        transition: all 0.3s ease-out;
+      }
+    }
+
+    &:hover .link-hov::after {
+      visibility: visible;
+      transform: scaleX(1);
+    }
+  }
+
+  @include md {
+    position: absolute;
+    right: 0px;
+    top: 15vh;
+    background-color: #ffc72c;
+    display: none;
+    flex-direction: column;
+    justify-content: end;
+    align-items: right;
+    gap: 20px;
+    width: 100%;
+    padding: 3rem 3rem;
+    transition: transform 0.5s ease-in;
+    z-index: 20;
+    box-shadow: 0px 4px 7px 0px rgba(46, 46, 46, 0.65);
+
+    li {
+      opacity: 0;
+    }
+  }
+}
+
+.active {
+  color: $secondaryOrange;
+}
+
+.burger {
+  display: none;
+
+  div {
+    width: 25px;
+    height: 3px;
+    background-color: $primaryBlue;
+    margin: 5px;
+    border-radius: 50px;
+  }
+
+  @include md {
+    display: block;
+    cursor: pointer;
+  }
+}
+
+.nav-active {
+  display: flex;
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2 {
+  opacity: 0;
+}
+
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../media/kitchen-background-desktop-min.webp);
+  padding: 4rem 9rem;
+  position: relative;
+  display: flex;
+  justify-content: start;
+  height: 87vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  font-family: $primaryFont;
+
+  @include md {
+    align-items: center;
+    padding: 4rem 2rem;
+    height: 50vh;
+  }
+
+  @include sm {
+    padding: 2rem 2rem;
+    background-image: url(../media/kitchen-background-mobile-min.webp);
+    height: 100vh;
+    align-items: start;
+    justify-content: center;
+  }
+
+  .taste-mzansi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+    @include lg {
       justify-content: start;
-    height: 87vh;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: bottom;
-      font-family: $primaryFont;
+    }
 
+    @include sm {
+      flex-wrap: nowrap;
+    }
 
-
-
+    .mzansi-logo {
+      height: 20rem;
+      width: auto;
+      z-index: 3;
 
       @include md {
-        align-items: center;
-      padding: 4rem 2rem;
-        height: 50vh;
+        height: 16rem;
       }
 
       @include sm {
-        padding: 2rem 2rem;
-        background-image: url(../media/kitchen-background-mobile-min.webp);
-        height: 100vh;
-        align-items: start;
-        justify-content: center;
+        height: 14rem;
+      }
+    }
+
+    .header-h1 {
+      color: #ffffff;
+      background-color: $primaryOrange;
+      padding: 0 20px;
+      text-transform: uppercase;
+      font-weight: 600;
+      transform: rotate(-5deg);
+      margin-top: -40px;
+      font-size: 4rem;
+      z-index: 2;
+
+      @include md {
+        font-size: 3.5rem;
       }
 
-      .taste-mzansi{
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: start;
+      @include sm {
+        font-size: 2.5rem;
+        margin-top: -25px;
+      }
 
- 
+      @include xs {
+        font-size: 2.2rem;
+        margin-top: -25px;
+        padding: 6px 15px;
+      }
 
-          @include lg {
-            justify-content: start;
-          }
-
-          @include sm {
-            flex-wrap: nowrap;
-
-          }
-
-          .mzansi-logo {
-            height: 20rem;
-            width: auto;
-            z-index: 3;
-
-      
-
-            @include md {
-              height: 16rem;
-            }
-
-            @include sm {
-              height: 14rem;
-            }
-            }
-
-          .header-h1 {
-            color: #ffffff;
-            background-color: $primaryOrange;
-            padding: 0 20px;
-            text-transform: uppercase;
-            font-weight: 600;
-            transform: rotate(-5deg);
-            margin-top: -40px;
-            font-size: 4rem;
-            z-index: 2;
-
-            @include md{
-              font-size: 3.5rem;
-            }
-
-            @include sm {
-              font-size: 2.5rem;
-              margin-top: -25px;
-            }
-
-            @include xs {
-              font-size: 2.2rem;
-              margin-top: -25px;
-              padding: 6px 15px;
-            }
-            
-            
-
-
-            &::after{
-                content: 'South Africa';
-                transform: translateY(0);
-                opacity: 0;
-                display: inline-block;
-                animation: heritage 10s ease-in 1s forwards;
-                width: 250px;
-
-                @include sm {
-                  width: 165px;
-                }
-
-                @include xs {
-                  width: 160px;
-                }
-            }
-
-            @keyframes heritage {
-                0% {transform: translateY(0); content: 'Heritage'; opacity: 0;}
-                5% {transform: translateY(0); opacity: 1}
-                20% {transform: translateY(0); opacity: 1}
-                25% {transform: translateY(-30px); opacity: 0; content: 'Heritage'}
-                30% {transform: translateY(0); content: 'Mzansi'; opacity: 0;}
-                35% {transform: translateY(0); opacity: 1}
-                50% {transform: translateY(0); opacity: 1}
-                55% {transform: translateY(-30px); opacity: 0; content: 'Mzansi'}
-                60% {transform: translateY(0); content: 'South Africa'; opacity: 0;}
-                65% {transform: translateY(0); opacity: 1}
-                100% {transform: translateY(0); opacity: 1}
-                
-            }
-
-            }
-
-            .taste-para {
-              color: #ffffff;
-              font-family: $primaryFont;
-            background-color: $primaryBlue;
-            padding: 13px 20px;
-            text-transform: uppercase;
-            font-weight: 600;
-            font-size: 2.5rem;
-            z-index: 1;
-            margin-top: 5px;
-            margin-left: 4px;
-
-            @include sm {
-              font-size: 2.2rem;
-              width: 70%;
-              padding: 8px 20px;
-            }
-
-            @include xs {
-              font-size: 2rem;
-              width: 95%;
-              padding: 8px 15px;
-            }
-
-
-        }
-      } 
-
-      .nthabi {
-          position: absolute;
-          bottom: 0;
-          right: 100px;
-          height: 97%;
-          width: auto;
-
-          @include lg {
-            height: 95%;
-          }
-
-          @include md {
-            height: 70%;
-            right: 0;
-          }
+      &::after {
+        content: "South Africa";
+        transform: translateY(0);
+        opacity: 0;
+        display: inline-block;
+        animation: heritage 10s ease-in 1s forwards;
+        width: 250px;
 
         @include sm {
-          height: 55%;
-          z-index: 5;
+          width: 165px;
         }
 
         @include xs {
-          height: 45%;
+          width: 160px;
         }
       }
 
-      .text-circle {
-        position: absolute;
-        bottom: 40px;
-        right: 40px;
-        transform-origin: 50% 50%;
-        animation: scrollRotate 15s linear none infinite;
-
-        .text-on-path{
-            font-size: 7rem;
-            font-family: Tungsten;
-            font-weight: bold;
-            fill: #ffffff;
-            letter-spacing: 5px;
-
-            @include sm {
-              font-size: 6rem;
-            }
+      @keyframes heritage {
+        0% {
+          transform: translateY(0);
+          content: "Heritage";
+          opacity: 0;
         }
-
-        @keyframes scrollRotate {
-            from {transform: rotate(0deg)}
-            to {transform: rotate(359deg)}
-            
+        5% {
+          transform: translateY(0);
+          opacity: 1;
         }
-
-        @include md {
-          bottom: 10px;
-          right: 10px;
+        20% {
+          transform: translateY(0);
+          opacity: 1;
         }
-
-        @include sm {
-          bottom: 10px;
-          right: 10px;
-          z-index: 6;
+        25% {
+          transform: translateY(-30px);
+          opacity: 0;
+          content: "Heritage";
         }
+        30% {
+          transform: translateY(0);
+          content: "Mzansi";
+          opacity: 0;
+        }
+        35% {
+          transform: translateY(0);
+          opacity: 1;
+        }
+        50% {
+          transform: translateY(0);
+          opacity: 1;
+        }
+        55% {
+          transform: translateY(-30px);
+          opacity: 0;
+          content: "Mzansi";
+        }
+        60% {
+          transform: translateY(0);
+          content: "South Africa";
+          opacity: 0;
+        }
+        65% {
+          transform: translateY(0);
+          opacity: 1;
+        }
+        100% {
+          transform: translateY(0);
+          opacity: 1;
+        }
+      }
     }
 
-    .boeries{
-      position: absolute;
-      bottom: 76px;
-      right: 90px;
-      height: 5rem;
-
-      @include md {
-        bottom: 48px;
-        right:57px;
-      }
+    .taste-para {
+      color: #ffffff;
+      font-family: $primaryFont;
+      background-color: $primaryBlue;
+      padding: 13px 20px;
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 2.5rem;
+      z-index: 1;
+      margin-top: 5px;
+      margin-left: 4px;
 
       @include sm {
-        right: 64px;
-        bottom: 58px;
-        z-index: 6;
-        height: 4rem;
-      
+        font-size: 2.2rem;
+        width: 70%;
+        padding: 8px 20px;
+      }
+
+      @include xs {
+        font-size: 2rem;
+        width: 95%;
+        padding: 8px 15px;
       }
     }
-            
   }
 
-  .intro {
-
-    position: relative;
-    overflow: hidden;
-
-
-
-    .svg-deco{
-      position: absolute;
-      z-index: -1;
-      height: 13rem;
-
-      @include sm {
-        height: 11rem;
-      }
-    }
-
-    .svg-line {
-      left: 100px;
-      bottom: 193px;
-  
-      @include sm {
-        left: -14px;
-        bottom: 248px;
-        height: 12rem;
-      }
-    }
-
-    .svg-lines {
-     right: 78px;
-     top: -34px;
-
-     @include sm {
-       right: -23px;
-     }
-
-    }
-      
-    .intro-text{
-      font-family: $secondayFont;
-    }
-
-    .intro-share {
-      margin-top: 3rem;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-
-      @include sm {
-        flex-direction: column;
-      }
-
-      .intro-share-text{
-        font-family: $primaryFont;
-        font-size: 3rem;
-        font-weight: 600;
-        text-transform: uppercase;
-        color: white;
-
-        @include sm {
-          font-size: 2.5rem;
-          margin-left: -9rem;
-        }
-
-  
-        
-
-        .intro-share-photos{
-          font-family: $primaryFont;
-          background-color: $primaryOrange;
-          padding: 10px 20px;
-          transform: rotate(-5deg);
-          width: 90%;
-
-          @include sm {
-            padding: 10px 20px 10px 9rem;
-            width: 90%;
-          }
-
-
-        }
-
-        .intro-share-hash{
-          font-family: $primaryFont;
-          background-color: $primaryBlue;
-          padding: 10px 20px;
-          margin-left: 4px;
-
-          @include sm {
-            padding: 10px 20px 10px 9rem;
-        }
-
-
-        }
-
-
-
-      }
-
-      .intro-share-icons{
-        text-align: right;
-        width: 60%;
-        font-size: 7rem;
-
-
-        @include sm {
-          font-size: 3rem;
-          width: 100%;
-          margin-top: 3rem;
-          display: flex;
-          justify-content: space-around;
-        }
-
-        i{
-          color: $primaryOrange;
-          margin-left: 3rem;
-
-
-          @include sm {
-            margin-left: 0rem;
-          }
-        }
-        
-      }
-    }
-
-  }
-
-  .webisodes {
-      background-color: $backgroundOrange;
-      text-align: center;
-      position: relative;
-
-
-    h2 {
-      font-size: 3rem;
-      color: $primaryOrange;
-      margin-bottom: 3rem;
-    }
-
-    .video-section {
-      display: grid;
-      grid-template-columns: auto auto;
-      gap: 50px;
-      margin-bottom: 6rem;
-
-      @include sm {
-        grid-template-columns: auto;
-      }
-
-
-      .video-container {
-        background-color: #e8e8e8;
-        text-align: left;
-        box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.4);
-
-        .video-text {
-          padding: 20px 30px;
-
-          h3 {
-            font-size: 1.8rem;
-            margin-bottom: 20px;
-          }
-        }
-      }
-    }
-
-
-    .embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
-
-    .section-divider-top{
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      height: 100px;
-    }
-
-  }
-
-  .recipes {
-position: relative;
-display: grid;
-grid-template-columns: 1fr 1fr;
-align-items: center;
-background-color: #FD9900;
-margin-top: -10px;
-color: white;
-
-@include lg {
-  grid-template-columns: auto;
-  align-items: left;
-}
-
-.recipes-text {
-  h2 {
-    font-size: 10rem;
-    line-height: 8rem;
-    text-transform: uppercase;
+  .nthabi {
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    height: 97%;
+    width: auto;
 
     @include lg {
-      font-size: 8rem;
-    }
-  }
-}
-
-.recipes-options{
-
-  padding: 0 4rem;
-
-  @include lg {
-    padding: 0 0;
-  }
-
-p {
-  margin: 10px 0 30px 0;
-  font-size: 1.2rem;
-}
-
-.swiper {
-  width: 45vw;
-  height: 320px;
-  cursor: url("../media/swiper.png"),pointer;
-
-  @include lg {
-    width: 90vw;
-  }
-
-  .swiper-slide {
-    background-color: $activeBlue;
-    position: relative;
-    border-radius: 30px 30px 0 30px;
-    overflow: hidden;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-
-    img {
-      height: auto;
-      width: 100%;
-      
+      height: 95%;
     }
 
-    .recipe-card {
-      padding: 1rem;
-      font-size: 2rem;  
-    }
-
-    button{
-      position: absolute;
-      bottom: 0;
+    @include md {
+      height: 70%;
       right: 0;
-      background-color: $hoverBlue;
-      font-family: $primaryFont;
-      text-transform: uppercase;
-      font-size: 2rem;
-      border: none;
-      border-radius: 30px 0 0 0;
-      padding: 20px;  
-      display: flex;
-      align-items: right;
-      justify-content: center;
+    }
+
+    @include sm {
+      height: 55%;
+      z-index: 5;
+    }
+
+    @include xs {
+      height: 45%;
+    }
+  }
+
+  .text-circle {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    transform-origin: 50% 50%;
+    animation: scrollRotate 15s linear none infinite;
+
+    .text-on-path {
+      font-size: 7rem;
+      font-family: Tungsten;
       font-weight: bold;
+      fill: #ffffff;
+      letter-spacing: 5px;
 
-
-      img {
-        height: 35px;
-        margin-left: 10px;
-        width: auto;
+      @include sm {
+        font-size: 6rem;
       }
     }
 
+    @keyframes scrollRotate {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(359deg);
+      }
+    }
+
+    @include md {
+      bottom: 10px;
+      right: 10px;
+    }
+
+    @include sm {
+      bottom: 10px;
+      right: 10px;
+      z-index: 6;
+    }
+  }
+
+  .boeries {
+    position: absolute;
+    bottom: 76px;
+    right: 90px;
+    height: 5rem;
+
+    @include md {
+      bottom: 48px;
+      right: 57px;
+    }
+
+    @include sm {
+      right: 64px;
+      bottom: 58px;
+      z-index: 6;
+      height: 4rem;
+    }
   }
 }
 
-}
+.intro {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 40px;
 
-
-.section-divider-bottom {
-  transform: rotate(180deg);
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100px;
-}
-
+  @include md {
+    flex-direction: column;
   }
 
-     
+  .svg-deco {
+    position: absolute;
+    z-index: -1;
+    height: 13rem;
+
+    @include sm {
+      height: 11rem;
+    }
+  }
+
+  .svg-line {
+    left: 100px;
+    bottom: -65px;
+
+    @include sm {
+      left: -14px;
+      bottom: 248px;
+      height: 12rem;
+    }
+  }
+
+  .svg-lines {
+    right: 78px;
+    top: -34px;
+
+    @include sm {
+      right: -23px;
+    }
+  }
+
+  .intro-text {
+    font-family: $secondayFont;
+    padding-right: 50px;
+
+    h2 {
+      font-family: $primaryFont;
+      font-size: 3.5rem;
+      font-weight: 900;
+      text-transform: uppercase;
+      line-height: 3rem;
+      margin-bottom: 30px;
+
+      @include xs {
+        font-size: 3rem;
+      }
+    }
+  }
+
+  .intro-share {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    @include md {
+      flex-direction: row;
+      justify-content: space-between;
+      width: 80%;
+    }
+
+    @include sm {
+      flex-direction: column;
+    }
+
+    .intro-share-text {
+      font-family: $primaryFont;
+      font-size: 3rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      color: white;
+
+      @include sm {
+        font-size: 2.5rem;
+        margin-left: -9rem;
+      }
+
+      .intro-share-photos {
+        font-family: $primaryFont;
+        background-color: $primaryOrange;
+        padding: 10px 20px;
+        transform: rotate(-5deg);
+        width: 90%;
+
+        @include sm {
+          padding: 10px 20px 10px 9rem;
+          width: 90%;
+        }
+      }
+
+      .intro-share-hash {
+        font-family: $primaryFont;
+        background-color: $primaryBlue;
+        padding: 10px 20px;
+        margin-left: 4px;
+
+        @include sm {
+          padding: 10px 20px 10px 9rem;
+        }
+      }
+    }
+
+    .intro-share-icons {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 30px;
+      font-size: 3rem;
+      width: 100%;
+
+      @include sm {
+        font-size: 3rem;
+        width: 100%;
+        margin-top: 3rem;
+        display: flex;
+        justify-content: space-around;
+        transition: all 0.3s ease-in-out;
+      }
+
+      i {
+        color: $primaryOrange;
+
+        &:hover {
+          transform: scale(1.2);
+          color: $secondaryOrange;
+        }
+
+        @include sm {
+          margin-left: 0rem;
+        }
+      }
+    }
+  }
+}
+
+.webisodes {
+  background-color: $backgroundOrange;
+  text-align: center;
+  position: relative;
+
+  h2 {
+    font-size: 5rem;
+    color: $primaryOrange;
+    margin-bottom: 3rem;
+
+    @include xs {
+      font-size: 3rem;
+    }
+  }
+
+  .video-section {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 50px;
+    margin-bottom: 6rem;
+
+    @include sm {
+      grid-template-columns: auto;
+    }
+
+    .video-container {
+      background-color: #e8e8e8;
+      text-align: left;
+      box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.4);
+
+      .video-text {
+        padding: 20px 30px;
+
+        h3 {
+          font-size: 1.8rem;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+
+  .embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+  }
+  .embed-container iframe,
+  .embed-container object,
+  .embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .section-divider-top {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+  }
+}
+
+.recipes {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fd9900;
+  margin-top: -10px;
+  color: white;
+
+  @include lg {
+    flex-direction: column;
+    align-items: left;
+  }
+
+  .recipes-text {
+    h2 {
+      font-size: 10rem;
+      line-height: 8rem;
+      text-transform: uppercase;
+
+      @include lg {
+        font-size: 8rem;
+      }
+
+      @include xs {
+        font-size: 7rem;
+        line-height: 6rem;
+      }
+    }
+  }
+
+  .recipes-options {
+    padding: 0 4rem;
+
+    @include lg {
+      padding: 0 0;
+    }
+
+    @include sm {
+      padding: 0 1rem;
+    }
+
+    p {
+      margin: 10px 0 30px 0;
+      font-size: 1.2rem;
+
+      @include md {
+      }
+    }
+
+    .swiper {
+      width: 600px;
+      height: 337px;
+      cursor: url("../media/swipe.svg"), pointer;
+
+      @include sm {
+        width: 400px;
+      }
+
+      @include xs {
+        width: 320px;
+      }
+
+      .swiper-slide {
+        height: 337px;
+        width: 550px;
+        overflow: hidden;
+        background-color: $activeBlue;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-radius: 30px 30px 0 30px;
+
+        h4 {
+          font-size: 2rem;
+          margin: 1rem;
+          margin-bottom: auto;
+        }
+
+        button {
+          padding: 10px 30px;
+          width: 70%;
+          margin-left: auto;
+          border: none;
+          border-radius: 30px 0 0 0;
+          background-color: $hoverBlue;
+          font-family: $primaryFont;
+          font-weight: 900;
+          color: white;
+          font-size: 1.5rem;
+          text-transform: uppercase;
+
+          img {
+            margin-left: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.budget-menu {
+  position: relative;
+  margin-top: -10px;
+  padding-top: 10rem;
+  background-color: $backgroundOrange;
+  text-align: center;
+
+  .lines-deco {
+    position: absolute;
+    top: 89px;
+    right: 406px;
+    z-index: 1;
+  }
+
+  .budget-menu-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+
+    h2 {
+      font-size: 5rem;
+      line-height: 5rem;
+      text-transform: uppercase;
+      color: $primaryBlue;
+      position: relative;
+
+      @include sm {
+        font-size: 4rem;
+      }
+
+      @include xs {
+        font-size: 3rem;
+      }
+    }
+
+    p {
+      width: 60%;
+      margin: 20px 0 40px 0;
+    }
+  }
+
+  .swiper {
+    cursor: url("../media/swipe.svg"), pointer;
+    width: 100%;
+    height: 500px;
+   
 
 
-     
+    .swiper-slide {
+      margin-bottom: 30px;
+
+      .car-top {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+        margin-bottom: 50px;
+
+        .car-desc {
+          text-align: left;
+
+          color: $primaryOrange;
+
+          h4 {
+            font-size: 4rem;
+            text-transform: uppercase;
+          }
+
+          p {
+            font-family: $primaryFont;
+            font-size: 2rem;
+          }
+        }
+
+        ul {
+          list-style: none;
+          text-align: left;
+          column-count: 3;
+          column-gap: 5rem;
+          font-family: $primaryFont;
+          color: $primaryBlue;
+          font-size: 1.3rem;
+
+          li {
+            display: flex;
+            justify-content: space-between;
+            width: 100px;
+            gap: 10px;
+            margin-bottom: 10px;
+
+            img {
+              height: 1.2rem;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .book-car {
+    display: flex;
+    justify-content: end;
+    align-items: center;
 
 
+    button {
+      font-family: $primaryFont;
+      font-size: 2rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 20px;
+      background-color: $activeBlue;
+      color: white;
 
+      &:hover {
+        background-color: $hoverBlue;
+      }
 
-  
-  
+      i {
+        margin-left: 20px;
+      }
+    }
+  }
 
+  .section-divider-bottom {
+    transform: rotate(180deg);
+    position: absolute;
+    top: -2px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+  }
+}

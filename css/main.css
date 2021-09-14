@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Museo Sans';
+  font-family: "Museo Sans";
   src: url("../fonts/museo/MuseoSans-700.woff2") format("woff2"), url("../fonts/museo/MuseoSans-700.woff") format("woff");
   font-weight: 700;
   font-style: normal;
@@ -7,7 +7,7 @@
 }
 
 @font-face {
-  font-family: 'Museo Sans';
+  font-family: "Museo Sans";
   src: url("../fonts/museo/fonts/museo") format("woff2"), url("../fonts/museo/MuseoSans-300.woff") format("woff");
   font-weight: 300;
   font-style: normal;
@@ -15,7 +15,7 @@
 }
 
 @font-face {
-  font-family: 'Museo Sans';
+  font-family: "Museo Sans";
   src: url("../fonts/museo/MuseoSans-100.woff2") format("woff2"), url("../fonts/museo/MuseoSans-100.woff") format("woff");
   font-weight: 100;
   font-style: normal;
@@ -23,7 +23,7 @@
 }
 
 @font-face {
-  font-family: 'Museo Sans';
+  font-family: "Museo Sans";
   src: url("../fonts/museo/MuseoSans-500.woff2") format("woff2"), url("../fonts/museo/MuseoSans-500.woff") format("woff");
   font-weight: normal;
   font-style: normal;
@@ -31,7 +31,7 @@
 }
 
 @font-face {
-  font-family: 'Museo Sans';
+  font-family: "Museo Sans";
   src: url("../fonts/museo/MuseoSans-900.woff2") format("woff2"), url("../fonts/museo/MuseoSans-900.woff") format("woff");
   font-weight: bold;
   font-style: normal;
@@ -39,7 +39,7 @@
 }
 
 @font-face {
-  font-family: 'Tungsten';
+  font-family: "Tungsten";
   src: url("../fonts/tungsten/Tungsten-Black.woff2") format("woff2"), url("../fonts/tungsten/Tungsten-Black.woff") format("woff");
   font-weight: 900;
   font-style: normal;
@@ -47,7 +47,7 @@
 }
 
 @font-face {
-  font-family: 'Tungsten';
+  font-family: "Tungsten";
   src: url("../fonts/tungsten/Tungsten-Bold.woff2") format("woff2"), url("../fonts/tungsten/Tungsten-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
@@ -55,7 +55,7 @@
 }
 
 @font-face {
-  font-family: 'Tungsten';
+  font-family: "Tungsten";
   src: url("../fonts/tungsten/Tungsten-Medium.woff2") format("woff2"), url("../fonts/tungsten/Tungsten-Medium.woff") format("woff");
   font-weight: medium;
   font-style: normal;
@@ -63,7 +63,7 @@
 }
 
 @font-face {
-  font-family: 'Tungsten';
+  font-family: "Tungsten";
   src: url("../fonts/tungsten/Tungsten-Semibold.woff2") format("woff2"), url("../fonts/tungsten/Tungsten-Semibold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
@@ -75,6 +75,10 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 html,
@@ -98,7 +102,12 @@ section {
   }
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Tungsten", sans-serif;
 }
 
@@ -472,7 +481,7 @@ header .taste-mzansi .header-h1 {
 }
 
 header .taste-mzansi .header-h1::after {
-  content: 'South Africa';
+  content: "South Africa";
   -webkit-transform: translateY(0);
           transform: translateY(0);
   opacity: 0;
@@ -498,7 +507,7 @@ header .taste-mzansi .header-h1::after {
   0% {
     -webkit-transform: translateY(0);
             transform: translateY(0);
-    content: 'Heritage';
+    content: "Heritage";
     opacity: 0;
   }
   5% {
@@ -515,12 +524,12 @@ header .taste-mzansi .header-h1::after {
     -webkit-transform: translateY(-30px);
             transform: translateY(-30px);
     opacity: 0;
-    content: 'Heritage';
+    content: "Heritage";
   }
   30% {
     -webkit-transform: translateY(0);
             transform: translateY(0);
-    content: 'Mzansi';
+    content: "Mzansi";
     opacity: 0;
   }
   35% {
@@ -537,12 +546,12 @@ header .taste-mzansi .header-h1::after {
     -webkit-transform: translateY(-30px);
             transform: translateY(-30px);
     opacity: 0;
-    content: 'Mzansi';
+    content: "Mzansi";
   }
   60% {
     -webkit-transform: translateY(0);
             transform: translateY(0);
-    content: 'South Africa';
+    content: "South Africa";
     opacity: 0;
   }
   65% {
@@ -561,7 +570,7 @@ header .taste-mzansi .header-h1::after {
   0% {
     -webkit-transform: translateY(0);
             transform: translateY(0);
-    content: 'Heritage';
+    content: "Heritage";
     opacity: 0;
   }
   5% {
@@ -578,12 +587,12 @@ header .taste-mzansi .header-h1::after {
     -webkit-transform: translateY(-30px);
             transform: translateY(-30px);
     opacity: 0;
-    content: 'Heritage';
+    content: "Heritage";
   }
   30% {
     -webkit-transform: translateY(0);
             transform: translateY(0);
-    content: 'Mzansi';
+    content: "Mzansi";
     opacity: 0;
   }
   35% {
@@ -600,12 +609,12 @@ header .taste-mzansi .header-h1::after {
     -webkit-transform: translateY(-30px);
             transform: translateY(-30px);
     opacity: 0;
-    content: 'Mzansi';
+    content: "Mzansi";
   }
   60% {
     -webkit-transform: translateY(0);
             transform: translateY(0);
-    content: 'South Africa';
+    content: "South Africa";
     opacity: 0;
   }
   65% {
@@ -770,6 +779,25 @@ header .boeries {
 .intro {
   position: relative;
   overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  gap: 40px;
+}
+
+@media screen and (max-width: 900px) {
+  .intro {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 .intro .svg-deco {
@@ -786,7 +814,7 @@ header .boeries {
 
 .intro .svg-line {
   left: 100px;
-  bottom: 193px;
+  bottom: -65px;
 }
 
 @media screen and (max-width: 600px) {
@@ -810,6 +838,22 @@ header .boeries {
 
 .intro .intro-text {
   font-family: "Museo Sans", Arial, Helvetica, sans-serif;
+  padding-right: 50px;
+}
+
+.intro .intro-text h2 {
+  font-family: "Tungsten", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 3rem;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 375px) {
+  .intro .intro-text h2 {
+    font-size: 3rem;
+  }
 }
 
 .intro .intro-share {
@@ -817,16 +861,28 @@ header .boeries {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+  .intro .intro-share {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 80%;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -883,9 +939,17 @@ header .boeries {
 }
 
 .intro .intro-share .intro-share-icons {
-  text-align: right;
-  width: 60%;
-  font-size: 7rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 30px;
+  font-size: 3rem;
+  width: 100%;
 }
 
 @media screen and (max-width: 600px) {
@@ -898,12 +962,19 @@ header .boeries {
     display: flex;
     -ms-flex-pack: distribute;
         justify-content: space-around;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
   }
 }
 
 .intro .intro-share .intro-share-icons i {
   color: #e05a29;
-  margin-left: 3rem;
+}
+
+.intro .intro-share .intro-share-icons i:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  color: #ed9645;
 }
 
 @media screen and (max-width: 600px) {
@@ -919,9 +990,15 @@ header .boeries {
 }
 
 .webisodes h2 {
-  font-size: 3rem;
+  font-size: 5rem;
   color: #e05a29;
   margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 375px) {
+  .webisodes h2 {
+    font-size: 3rem;
+  }
 }
 
 .webisodes .video-section {
@@ -964,7 +1041,9 @@ header .boeries {
   max-width: 100%;
 }
 
-.webisodes .embed-container iframe, .webisodes .embed-container object, .webisodes .embed-container embed {
+.webisodes .embed-container iframe,
+.webisodes .embed-container object,
+.webisodes .embed-container embed {
   position: absolute;
   top: 0;
   left: 0;
@@ -982,22 +1061,30 @@ header .boeries {
 
 .recipes {
   position: relative;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #FD9900;
+  background-color: #fd9900;
   margin-top: -10px;
   color: white;
 }
 
 @media screen and (max-width: 1200px) {
   .recipes {
-    -ms-grid-columns: auto;
-        grid-template-columns: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-align: left;
         -ms-flex-align: left;
             align-items: left;
@@ -1016,6 +1103,13 @@ header .boeries {
   }
 }
 
+@media screen and (max-width: 375px) {
+  .recipes .recipes-text h2 {
+    font-size: 7rem;
+    line-height: 6rem;
+  }
+}
+
 .recipes .recipes-options {
   padding: 0 4rem;
 }
@@ -1026,78 +1120,239 @@ header .boeries {
   }
 }
 
+@media screen and (max-width: 600px) {
+  .recipes .recipes-options {
+    padding: 0 1rem;
+  }
+}
+
 .recipes .recipes-options p {
   margin: 10px 0 30px 0;
   font-size: 1.2rem;
 }
 
 .recipes .recipes-options .swiper {
-  width: 45vw;
-  height: 320px;
-  cursor: url("../media/swiper.png"), pointer;
+  width: 600px;
+  height: 337px;
+  cursor: url("../media/swipe.svg"), pointer;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 600px) {
   .recipes .recipes-options .swiper {
-    width: 90vw;
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .recipes .recipes-options .swiper {
+    width: 320px;
   }
 }
 
 .recipes .recipes-options .swiper .swiper-slide {
-  background-color: #0044a3;
-  position: relative;
-  border-radius: 30px 30px 0 30px;
+  height: 337px;
+  width: 550px;
   overflow: hidden;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-rows: 1fr 1fr;
-      grid-template-rows: 1fr 1fr;
-}
-
-.recipes .recipes-options .swiper .swiper-slide img {
-  height: auto;
-  width: 100%;
-}
-
-.recipes .recipes-options .swiper .swiper-slide .recipe-card {
-  padding: 1rem;
-  font-size: 2rem;
-}
-
-.recipes .recipes-options .swiper .swiper-slide button {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  background-color: #0067c2;
-  font-family: "Tungsten", sans-serif;
-  text-transform: uppercase;
-  font-size: 2rem;
-  border: none;
-  border-radius: 30px 0 0 0;
-  padding: 20px;
+  background-color: #0044a3;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: right;
-      -ms-flex-align: right;
-          align-items: right;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-weight: bold;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-radius: 30px 30px 0 30px;
+}
+
+.recipes .recipes-options .swiper .swiper-slide h4 {
+  font-size: 2rem;
+  margin: 1rem;
+  margin-bottom: auto;
+}
+
+.recipes .recipes-options .swiper .swiper-slide button {
+  padding: 10px 30px;
+  width: 70%;
+  margin-left: auto;
+  border: none;
+  border-radius: 30px 0 0 0;
+  background-color: #0067c2;
+  font-family: "Tungsten", sans-serif;
+  font-weight: 900;
+  color: white;
+  font-size: 1.5rem;
+  text-transform: uppercase;
 }
 
 .recipes .recipes-options .swiper .swiper-slide button img {
-  height: 35px;
-  margin-left: 10px;
-  width: auto;
+  margin-left: 15px;
 }
 
-.recipes .section-divider-bottom {
+.budget-menu {
+  position: relative;
+  margin-top: -10px;
+  padding-top: 10rem;
+  background-color: #fdeace;
+  text-align: center;
+}
+
+.budget-menu .lines-deco {
+  position: absolute;
+  top: 89px;
+  right: 406px;
+  z-index: 1;
+}
+
+.budget-menu .budget-menu-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  z-index: 2;
+}
+
+.budget-menu .budget-menu-text h2 {
+  font-size: 5rem;
+  line-height: 5rem;
+  text-transform: uppercase;
+  color: #002861;
+  position: relative;
+}
+
+@media screen and (max-width: 600px) {
+  .budget-menu .budget-menu-text h2 {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .budget-menu .budget-menu-text h2 {
+    font-size: 3rem;
+  }
+}
+
+.budget-menu .budget-menu-text p {
+  width: 60%;
+  margin: 20px 0 40px 0;
+}
+
+.budget-menu .swiper {
+  cursor: url("../media/swipe.svg"), pointer;
+  width: 100%;
+  height: 500px;
+}
+
+.budget-menu .swiper .swiper-slide {
+  margin-bottom: 30px;
+}
+
+.budget-menu .swiper .swiper-slide .car-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 60px;
+  margin-bottom: 50px;
+}
+
+.budget-menu .swiper .swiper-slide .car-top .car-desc {
+  text-align: left;
+  color: #e05a29;
+}
+
+.budget-menu .swiper .swiper-slide .car-top .car-desc h4 {
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+
+.budget-menu .swiper .swiper-slide .car-top .car-desc p {
+  font-family: "Tungsten", sans-serif;
+  font-size: 2rem;
+}
+
+.budget-menu .swiper .swiper-slide .car-top ul {
+  list-style: none;
+  text-align: left;
+  -webkit-column-count: 3;
+          column-count: 3;
+  -webkit-column-gap: 5rem;
+          column-gap: 5rem;
+  font-family: "Tungsten", sans-serif;
+  color: #002861;
+  font-size: 1.3rem;
+}
+
+.budget-menu .swiper .swiper-slide .car-top ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100px;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.budget-menu .swiper .swiper-slide .car-top ul li img {
+  height: 1.2rem;
+}
+
+.budget-menu .book-car {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.budget-menu .book-car button {
+  font-family: "Tungsten", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: #0044a3;
+  color: white;
+}
+
+.budget-menu .book-car button:hover {
+  background-color: #0067c2;
+}
+
+.budget-menu .book-car button i {
+  margin-left: 20px;
+}
+
+.budget-menu .section-divider-bottom {
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
   position: absolute;
-  bottom: 0;
+  top: -2px;
   left: 0;
   width: 100%;
   height: 100px;
